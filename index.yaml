@@ -3,7 +3,21 @@ entries:
   mailserver:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-16T17:05:21.482159965+10:00"
+    created: "2021-04-16T17:14:45.765219499+10:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.0.1
+    description: A Helm chart for deploying Mailserver.
+    digest: 4e80bfa7bce76e7a0fd3d50b53829c981b1811da16177d3e3d6112a6e55b1b15
+    name: mailserver
+    type: application
+    urls:
+    - https://helm.hahl.id.au/mailserver-2.0.7.tgz
+    version: 2.0.7
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-16T17:14:45.760475707+10:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 2.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-16T17:05:21.476369682+10:00"
+    created: "2021-04-16T17:14:45.754876821+10:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://helm.hahl.id.au/mailserver-2.0.5.tgz
     version: 2.0.5
-generated: "2021-04-16T17:05:21.470201312+10:00"
+generated: "2021-04-16T17:14:45.749206415+10:00"
