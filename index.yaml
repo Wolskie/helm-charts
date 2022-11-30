@@ -3,7 +3,7 @@ entries:
   mailserver:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-16T17:14:45.765219499+10:00"
+    created: "2022-11-30T16:51:21.745427405-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +17,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-16T17:14:45.760475707+10:00"
+    created: "2022-11-30T16:51:21.732900054-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +31,7 @@ entries:
     version: 2.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-16T17:14:45.754876821+10:00"
+    created: "2022-11-30T16:51:21.720222274-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -43,4 +43,29 @@ entries:
     urls:
     - https://helm.hahl.id.au/mailserver-2.0.5.tgz
     version: 2.0.5
-generated: "2021-04-16T17:14:45.749206415+10:00"
+  postfix:
+  - apiVersion: v2
+    appVersion: 3.6.4
+    created: "2022-11-30T16:51:21.757705169-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.0
+    description: Postfix is a Mail Transport Agent (MTA).
+    digest: 7d952e77a2279ecdc1bff1f0cce828e97b153e8c4925541e19499bced740456e
+    home: https://github.com/mhahl/charts
+    keywords:
+    - postfix
+    - mail
+    maintainers:
+    - name: Mark Hahl
+      url: https://github.com/mhahl/charts
+    name: postfix
+    sources:
+    - https://github.com/mhahl/charts
+    urls:
+    - https://helm.hahl.id.au/postfix-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-30T16:51:21.702837321-05:00"
