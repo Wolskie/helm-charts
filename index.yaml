@@ -3,7 +3,31 @@ entries:
   dovecot:
   - apiVersion: v2
     appVersion: 2.3.16
-    created: "2022-12-04T21:08:11.102226257-05:00"
+    created: "2022-12-04T21:25:59.024200976-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.0
+    description: dovecot is a Mail Transport Agent (MTA).
+    digest: 9d98696538199a65fcbf20c1aff1bb1fa4db9b12f7948e662f5b3d92033d99bb
+    home: https://github.com/mhahl/charts
+    keywords:
+    - dovecot
+    - mail
+    maintainers:
+    - name: Mark Hahl
+      url: https://github.com/mhahl/charts
+    name: dovecot
+    sources:
+    - https://github.com/mhahl/charts
+    urls:
+    - https://helm.hahl.id.au/dovecot-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2.3.16
+    created: "2022-12-04T21:25:59.016464656-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -27,7 +51,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.3.16
-    created: "2022-12-04T21:08:11.094503283-05:00"
+    created: "2022-12-04T21:25:59.009278571-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -52,7 +76,7 @@ entries:
   mailserver:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-04T21:08:11.141508886-05:00"
+    created: "2022-12-04T21:25:59.062096805-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -66,7 +90,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-04T21:08:11.129331814-05:00"
+    created: "2022-12-04T21:25:59.048694557-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -80,7 +104,7 @@ entries:
     version: 2.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-04T21:08:11.115065828-05:00"
+    created: "2022-12-04T21:25:59.036738528-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -95,7 +119,7 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: 3.6.4
-    created: "2022-12-04T21:08:11.15059699-05:00"
+    created: "2022-12-04T21:25:59.069489676-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -117,4 +141,4 @@ entries:
     urls:
     - https://helm.hahl.id.au/postfix-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-04T21:08:11.084629956-05:00"
+generated: "2022-12-04T21:25:59.00083068-05:00"
